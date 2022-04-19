@@ -15,7 +15,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .header {
@@ -47,6 +47,17 @@
 }
 .text {
     transform: skewX(20deg);
+}
+
+.bodyfont-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.bodyfont-lower {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: medium;
 }
 
 .nav-link {
@@ -88,7 +99,7 @@ a {
     margin-top: .5rem;
     width: 100vw;
     height: 93vh;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .box1{
     width: 33.33vw;
@@ -114,16 +125,20 @@ a {
 .box1-text {
     position: relative;
     top: 30rem;
-
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 .box2-text {
     position: relative;
     top: 20rem;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 .box3-text {
     position: relative;
     top: 10rem;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
