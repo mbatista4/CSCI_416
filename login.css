@@ -1,0 +1,35 @@
+.main-content{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.form-box {
+    border: 1px solid black;
+    height: 30%;
+    width: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inner {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-box input, .login-box label {
+    font-size: 20px;
+}
+
+.submit-box a {
+    color: #101F47;
+}
