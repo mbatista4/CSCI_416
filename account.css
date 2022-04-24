@@ -1,0 +1,37 @@
+.account-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    height: 60%;
+    margin: 5% auto;
+    box-shadow: 1px black;
+    background-color: #8F8F8F;
+}
+
+.account-title {
+    padding-left: 45%;
+    padding-top: 2%;
+}
+
+.account-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+}
+
+.account-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+}
+
+.choice-box {
+    padding: 30px;
+}

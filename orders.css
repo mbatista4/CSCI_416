@@ -1,0 +1,96 @@
+.order-title {
+    width:11%;
+    margin: 1% auto;
+}
+
+.orders-box {
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid gray;
+    width: 100%;
+    height: 10%;
+}
+
+.order-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    height: 20%;
+
+}
+
+.order-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-shipping {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-info {
+    width: 70%;
+
+}
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-pic {
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    width: 15%;
+}
+
+.item-desc {
+    align-self: center;
+    padding-left: 3%;
+}
+
+.right-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-;
+    align-items: center;
+    padding-top: .5%;
+    width: 30%;
+    height: 100%;
+}
+
+button {
+    background-color: #8F8F8F;
+      border: 1px solid black;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      width: 60%;
+    }
