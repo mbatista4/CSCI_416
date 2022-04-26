@@ -50,6 +50,7 @@
 .order-body {
     display: flex;
     flex-direction: row;
+    background-color: #FAF9F6;
 }
 
 .left-info {
@@ -94,3 +95,7 @@ button {
       font-size: 16px;
       width: 60%;
     }
+
+button:hover {
+    cursor: pointer;
+}

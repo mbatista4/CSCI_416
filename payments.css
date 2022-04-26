@@ -1,0 +1,77 @@
+.wallet-title {
+    
+    display: flex;
+    flex-direction: column;
+    padding-right: 29.2%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    
+}
+
+.payments-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.body-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.cards-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAF9F6;
+    width: 40%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.cards-left {
+    
+    width: 80%;
+    overflow: auto;
+}
+
+.cards-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    width: 20%;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.left-card-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.card-top-line {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-bottom-line {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card-pic {
+    width: 34%;
+}
