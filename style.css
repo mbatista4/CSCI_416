@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *, *::before, *::after
 {
 	margin: 0;
@@ -9,6 +11,9 @@ html {
     font-size: 20px;
 }
 
+button:hover {
+    cursor: pointer;
+}
 .img {
     max-width: 100%;
     max-height: 100%;

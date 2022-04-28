@@ -1,0 +1,38 @@
+.main-content {
+    background: #676767;
+    height: 94%;
+    width: 80%;
+    margin: auto;
+}
+
+.search-sections {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+.search-field {
+    display: flex;
+}
+
+.search-field input {
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding-left: 10px;
+}
+
+.search-field button {
+    border: none;
+    border-radius: 0 8px 8px 0;
+}
+
+.search-result {
+    background: #ffff;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
